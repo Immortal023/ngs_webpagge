@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - NGSupport</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: url(picture/CODE.JPG);
+        }
+
+        /* Header section styling */
+        header {
+            background-color: rgba(0, 122, 204, 0.9);
+            color: #ffffff;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 100%;
+        }
+
+        /* Navigation bar styling */
+        .nav-section {
+            background-color: rgba(0, 122, 204, 0.9);
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #004494;
+        }
+
+        /* Image styling */
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+        }
+
+        /* Section styling */
+        section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            padding: 20px;
+            max-width: 800px;
+            width: 100%;
+            transition: transform 0.3s;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        h1, h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        /* Services list styling */
+        .service-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .service-list li {
+            background: #e7f3ff;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-left: 5px solid #0056b3;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .service-list li:hover {
+            background: #cce5ff;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 0.9em;
+            color: #666;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            header, section, footer {
+                padding: 15px;
+            }
+
+            header img {
+                width: 100px;
+                height: 100px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="nav-section">
+        <nav>
+            <ul>
+                <li><a href="webpage.html">Home</a></li>
+                <li><a href="webpage.html">Services</a></li>
+                <li><a href="webpage.html">Why Work with Me?</a></li>
+                <li><a href="Contact_me.html">Contact</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+            </ul>
+        </nav>
+    </section>
+    
+    <header id="home-section">
+        <img src="picture/1.jpg" alt="Johnny Ngotizo Mokolo">
+        
+        <h1>Johnny Ngotizo Mokolo</h1>
+        <p>Hello! I’m Johnny, the founder of NGSupport. With a strong background in IT and years of hands-on experience, I’m dedicated to helping individuals and businesses navigate today’s tech landscape. My goal is to provide straightforward, reliable solutions tailored to your needs, ensuring technology works seamlessly for you.</p>
+        <p>Throughout my career, I’ve specialized in resolving complex tech issues quickly, offering personalized consulting, and ensuring my clients feel supported every step of the way. Whether you need immediate troubleshooting, advice on upgrades, or proactive solutions to stay secure, I’m here to make tech easy and accessible.</p>
+    </header>
+
+    <section id="services-section">
+        <h2>What I Offer</h2>
+        <p>I provide a wide range of <strong>IT services</strong> to meet your unique needs:</p>
+        <ul class="service-list">
+            <li><strong>Technical Support</strong>: I help solve computer issues or network problems quickly, minimizing disruptions.</li>
+            <li><strong>Disk Cloning</strong>: If you're upgrading your hard drive or moving to an SSD, my disk cloning services ensure a hassle-free transfer of all your data and settings.</li>
+            <li><strong>Domain Hosting</strong>: I offer reliable domain hosting services, making sure your website is set up and always accessible.</li>
+            <li><strong>Power User Support</strong>: I provide services to optimize your tech experience for advanced users, whether managing complex systems or running virtual machines.</li>
+            <li><strong>IT Consulting</strong>: I guide you in selecting the best solutions for your tech projects, including hardware and software upgrades.</li>
+            <li><strong>Business IT Solutions</strong>: I ensure your business tech runs efficiently, from network management to cloud services.</li>
+            <li><strong>Cybersecurity</strong>: I offer comprehensive services to protect your data from threats like malware and hacking.</li>
+        </ul>
+    </section>
+
+    <section id="why-section">
+        <h2>Why Work with Me?</h2>
+        <p>With years of IT experience, I’ve tackled a wide range of tech problems, no matter how complex. I prioritize understanding your specific needs and deliver personalized solutions that fit your situation. I know tech issues can be frustrating, which is why I’m committed to providing quick and effective support to help you get back to what matters most.</p>
+    </section>
+
+    <section id="contact-section">
+        <h2>Let’s Get Started</h2>
+        <p>Whether you need immediate IT support, disk cloning, domain hosting, power user services, consulting for a new project, or ongoing tech management, I’m here to help. <strong>Contact me today</strong> to discover how I can assist you in staying connected and keeping your technology running smoothly.</p>
+    </section>
+
+    <footer>
+        &copy; 2024 NGSupport. All rights reserved.
+    </footer>
+
+</body>
+</html>
